@@ -6,15 +6,19 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
+* {
+    box-sizing: border-box;
 }
 
 form {
     display: block;
     background-color: white;
-    width: 500px;
+    max-width: 500px;
     padding: 20px;
     border-radius: 16px;
+    width: 95%;
 }
 
 form div label {
